@@ -1,0 +1,48 @@
+ 1 {
+ 2   "$id": "https://jsonplaceholder.typicode.com/posts/1", 
+ 3   "type": "object", 
+ 4   "definitions": {}, 
+ 5   "$schema": "http://json-schema.org/draft-07/schema#", 
+ 6   "properties": {
+ 7     "userId": {
+ 8       "$id": "/properties/userId", 
+ 9       "type": "integer", 
+10       "title": "The Userid Schema", 
+11       "description": "An explanation about the purpose of this instance.", 
+12       "default": 0, 
+13       "examples": [
+14         1
+15       ]
+16     }, 
+17     "id": {
+18       "$id": "/properties/id", 
+19       "type": "integer", 
+20       "title": "The Id Schema", 
+21       "description": "An explanation about the purpose of this instance.", 
+22       "default": 0, 
+23       "examples": [
+24         1
+25       ]
+26     }, 
+27     "title": {
+28       "$id": "/properties/title", 
+29       "type": "string", 
+30       "title": "The Title Schema", 
+31       "description": "An explanation about the purpose of this instance.", 
+32       "default": "", 
+33       "examples": [
+34         "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+35       ]
+36     }, 
+37     "body": {
+38       "$id": "/properties/body", 
+39       "type": "string", 
+40       "title": "The Body Schema", 
+41       "description": "An explanation about the purpose of this instance.", 
+42       "default": "", 
+43       "examples": [
+44         "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+45       ]
+46     }
+47   }
+48 }
